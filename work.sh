@@ -1,4 +1,6 @@
-# git pull upstream master
+git checkout master
+
+git pull upstream master
 
 echo $1
 
@@ -20,4 +22,4 @@ echo ""
 
 echo "ATENÇÃO! Não se esqueça de escolher sua branch. A seguir, as branches disponíveis."
 
-git branch -r
+git branch
